@@ -1,0 +1,57 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    background: rgb(59, 143, 3);
+    font-size: 48px;
+    padding: 30px;
+    padding-left: 200px;
+}
+
+footer {
+    background: rgb(158, 117, 4);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    /* color: white; */
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.content div {
+    /* max-width: 200px; */
+    flex: 1;
+    border: 2px black solid;
+    border-radius: 15px;
+}
+
+#new-book-form {
+    /* border: 2px blue solid; */
+    display: flex;
+    flex-direction: column;
+    display:none;
+}
+
