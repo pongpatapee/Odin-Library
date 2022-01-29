@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        Library
+    </header>
+    <button id="add-book" onclick="openForm()">Add Book</button>
+    <div class="content">
+    </div>
+    <form action="#" id="new-book-form">
+        <button id="exit-form" onclick="closeForm()">X</button>
+        
+        <label for="title">Title</label>
+        <input type="text" id="title" required>
+        
+        <label for="author">Author</label>
+        <input type="text" id="author" required>
+
+        <label for="pages">Pages</label>
+        <input type="number" id="pages" required>
+
+        <label for="hasRead">Has Read</label>
+        <input type="checkbox" id="hasRead">
+
+        <input type="submit">
+    </form>
+    <footer>
+        Copyright ©
+        <script>document.write(new Date().getFullYear())</script>
+        pongpatapee
+        <a href="https://github.com/pongpatapee/Odin-RockPaperscissor-JS"><img src="images/github-logo.png" alt="GitHub" height="auto" width="20"></a>
+    </footer>
+</body>
+</html>
